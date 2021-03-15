@@ -67,7 +67,7 @@ void reverseEachWordOfString(char str[]){
     
 }
 
-void reverseWords(char str[]){
+void reverseWholeStrings(char str[]){
 
     int length = 0;
 
@@ -87,8 +87,8 @@ int main(){
     printf("\n input:  %s \n",word);
 
 
-    //reverseWords(word);  //reverse whole string
-    reverseEachWordOfString(word);  //reverse each word of a string
+    reverseWholeStrings(word);  //reverse whole string
+    //reverseEachWordOfString(word);  //reverse each word of a string
 
     printf("\n output: %s \n ",word);
 
